@@ -1,16 +1,12 @@
 package com.example.duplicate;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
 // поиск дубликатов
 public class DuplicateDetector {
 
-    private final MinHasher minHasher;
-
     public DuplicateDetector(int numHashes) {
-        this.minHasher = new MinHasher(numHashes);
     }
     private double jaccardSimilarity(Set<String> shingles1, Set<String> shingles2) {
         Set<String> intersection = new HashSet<>(shingles1);
