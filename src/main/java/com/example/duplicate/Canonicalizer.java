@@ -3,6 +3,7 @@ package com.example.duplicate;
 import java.text.Normalizer;
 import java.util.Locale;
 
+// канонизатор
 public class Canonicalizer {
 
     public static String canonicalize(String text) {

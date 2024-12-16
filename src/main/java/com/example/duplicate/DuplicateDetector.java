@@ -2,6 +2,7 @@ package com.example.duplicate;
 
 import java.util.Set;
 
+// поиск дубликатов
 public class DuplicateDetector {
 
     private final MinHasher minHasher;

@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+// вычисление хэшей
 public class MinHasher {
 
     private final int[] hashFunctions;

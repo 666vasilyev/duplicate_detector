@@ -3,6 +3,7 @@ package com.example.duplicate;
 import java.util.HashSet;
 import java.util.Set;
 
+// преобразователь текста в подстроки
 public class Shingler {
 
     public static Set<String> generateShingles(String text, int k) {
