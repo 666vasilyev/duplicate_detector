@@ -5,14 +5,6 @@ import java.util.Locale;
 
 // канонизатор
 public class Canonicalizer {
-
-    /**
-     * Канонизирует текст: удаляет лишние символы, приводит текст к нижнему регистру,
-     * упрощает пробелы и нормализует Unicode.
-     *
-     * @param text Исходный текст
-     * @return Канонизированный текст
-     */
     public static String canonicalize(String text) {
         if (text == null || text.isEmpty()) {
             return "";
